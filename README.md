@@ -12,4 +12,8 @@
 - The data was obtained from the Spanish Wine Quality Dataset on Kaggle. It contains [n] samples of Spanish red and white wines with [m] features including:
 -  Variety, country, winery, Location, Expert ratings, Alcohol content, pH levels, Acidity, and more.
 - The goal is to use the chemical and physical properties of the wines to predict the price. This is an important business goal for wineries to determine optimal pricing for their products. The data provides an interesting modeling challenge due to the mix of numerical and categorical features.
+## Analytical insights
 - ![Relation between acidity and price](visual1.png)
+- This scatterplot shows the relationship between acidity levels and price for the wines in the dataset. Each point represents a single wine sample. There is a clear positive correlation between acidity and price.
+- ![Relation between Type and price](visual2.png)
+- This bar chart displays the mean price for each wine type in the dataset. The height of each bar represents the average price of wines of that type. There are noticeable differences in average price between various wine types.
