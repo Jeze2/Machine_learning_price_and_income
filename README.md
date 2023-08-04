@@ -17,3 +17,18 @@
 - This scatterplot shows the relationship between acidity levels and price for the wines in the dataset. Each point represents a single wine sample. There is a clear positive correlation between acidity and price.
 - ![Relation between Type and price](visual2.png)
 - This bar chart displays the mean price for each wine type in the dataset. The height of each bar represents the average price of wines of that type. There are noticeable differences in average price between various wine types.
+## Model Metrics:
+
+    Algorithm: Random Forest Regressor
+    Training MSE: 27,104
+    Testing MSE: 50,012
+    Training R-squared: 0.672
+    Testing R-squared: 0.425
+## Business Problem Solving:
+- The Random Forest model achieves reasonably low MSE and moderate R-squared, indicating it can predict wine prices fairly accurately based on the wine attributes. The errors are higher than ideal but low enough to provide business value. There is room for improvement but this model serves as a good baseline solution.
+
+## Recommendations:
+- Try expanding the dataset with additional samples and variables like expert ratings that may improve predictive power. More data could help reduce errors.
+- Tuning hyperparameters like max depth and min samples leaf may help reduce overfitting and improve generalizability. Optimization can enhance performance.
+- Assess performance on total new datasets to ensure robustness across different wine price distributions and properties. Validate broader applicability.
+- Overall, the Random Forest model provides a moderate solution to the business problem. With more data and tuning, it can become a stronger system for wineries to leverage for pricing decisions.
